@@ -25,6 +25,13 @@
     ]
   },
   {
+    "id": "carousel",
+    "components": [
+      "slide",
+      "button"
+    ]
+  },
+  {
     "id": "columns",
     "components": [
       "column"
@@ -38,5 +45,8 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "quote"
   }
 ]

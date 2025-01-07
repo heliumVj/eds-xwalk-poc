@@ -8,11 +8,11 @@
           "page": {
             "resourceType": "core/franklin/components/block/v1/block",
             "template": {
-          "name": "Quote",
-          "model": "quote",
-          "quote": "<p>Think, McFly! Think!</p>",
-          "author": "Biff Tannen"
-        }
+              "name": "Quote",
+              "model": "quote",
+              "quote": "<p>Think, McFly! Think!</p>",
+              "author": "Biff Tannen"
+            }
           }
         }
       }
@@ -22,23 +22,22 @@
     {
       "id": "quote",
       "fields": [
-         {
-           "component": "richtext",
-           "name": "quote",
-           "value": "",
-           "label": "Quote",
-           "valueType": "string"
-         },
-         {
-           "component": "text",
-           "valueType": "string",
-           "name": "author",
-           "label": "Author",
-           "value": ""
-         }
-       ]
+        {
+          "component": "richtext",
+          "name": "quote",
+          "value": "",
+          "label": "Quote",
+          "valueType": "string"
+        },
+        {
+          "component": "text",
+          "valueType": "string",
+          "name": "author",
+          "label": "Author",
+          "value": ""
+        }
+      ]
     }
-    
   ],
   "filters": [
     {
