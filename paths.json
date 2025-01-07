@@ -1,8 +1,8 @@
 {
   "mappings": [
-    "/content/eds-xwalk-poc/:/",
-    "/content/eds-xwalk-poc/configuration:/.helix/config.json",
-    "/content/eds-xwalk-poc/metadata:/metadata.json"
+    "/content/vj-xwalk-poc/:/",
+    "/content/vj-xwalk-poc/configuration:/.helix/config.json",
+    "/content/vj-xwalk-poc/metadata:/metadata.json"
   ],
   "includes": [
     "/content/eds-xwalk-poc/"
