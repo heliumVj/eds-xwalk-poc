@@ -33,7 +33,7 @@
   ],
   "models": [
     {
-      "id": "Slide",
+      "id": "slide",
       "fields": [
         {
           "component": "reference",
