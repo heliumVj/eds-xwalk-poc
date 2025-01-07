@@ -5,6 +5,6 @@
     "/content/vj-xwalk-poc/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/eds-xwalk-poc/"
+    "/content/vj-xwalk-poc/"
   ]
 }
