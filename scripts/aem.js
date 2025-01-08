@@ -493,6 +493,7 @@ function decorateSections(main) {
 
     // Process section metadata
     const sectionMeta = section.querySelector('div.section-metadata');
+    console.log('sectionMeta', sectionMeta);
     if (sectionMeta) {
       const meta = readBlockConfig(sectionMeta);
       console.log('meta', meta);
