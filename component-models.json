@@ -139,6 +139,21 @@
             "value": "btn-blue"
           }
         ]
+      },
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Button Align Style",
+        "options": [
+          {
+            "name": "Left button",
+            "value": "left-btn"
+          },
+          {
+            "name": "Right button",
+            "value": "right-button"
+          }
+        ]
       }
     ]
   },
