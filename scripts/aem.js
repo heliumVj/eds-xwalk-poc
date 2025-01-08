@@ -434,7 +434,7 @@ function decorateButtons(element) {
           a.className = 'button secondary';
           twoup.classList.add('button-container');
 
-          const parentTwo = twoup.querySelector('div.button-metadata');
+          const parentTwo = twoup.querySelector('.button-metadata');
           console.log('parentTwo', parentTwo);
           console.log('TWOUP', twoup);
           const meta = readBlockConfig(twoup);
