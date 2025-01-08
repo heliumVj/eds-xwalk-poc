@@ -495,6 +495,7 @@ function decorateSections(main) {
     const sectionMeta = section.querySelector('div.section-metadata');
     if (sectionMeta) {
       const meta = readBlockConfig(sectionMeta);
+      console.log('meta', meta);
       Object.keys(meta).forEach((key) => {
         if (key === 'style') {
           const styles = meta.style
@@ -505,7 +506,9 @@ function decorateSections(main) {
         } else {
           section.dataset[toCamelCase(key)] = meta[key];
         }
+        console.log('key', key);
       });
+      console.log('Object', Object);
       sectionMeta.parentNode.remove();
     }
   });
