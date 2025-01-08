@@ -113,13 +113,6 @@
         ]
       },
       {
-        "component": "text",
-        "valueType": "string",
-        "name": "button-align",
-        "label": "Button Align",
-        "value": ""
-      },
-      {
         "component": "select",
         "name": "classes",
         "value": "",
