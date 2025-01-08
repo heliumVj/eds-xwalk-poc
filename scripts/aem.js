@@ -433,6 +433,9 @@ function decorateButtons(element) {
         ) {
           a.className = 'button secondary';
           twoup.classList.add('button-container');
+
+          const meta = readBlockConfig(twoup);
+          console.log('Block Secondary', meta);
         }
       }
     }
