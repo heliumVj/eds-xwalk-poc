@@ -92,6 +92,32 @@
             "value": "secondary"
           }
         ]
+      },
+      {
+        "component": "select",
+        "name": "alignment",
+        "label": "Alignment",
+        "options": [
+          {
+            "name": "Left",
+            "value": "left"
+          },
+          {
+            "name": "Center",
+            "value": "center"
+          },
+          {
+            "name": "Right",
+            "value": "right"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "button-align",
+        "label": "Button Align",
+        "value": ""
       }
     ]
   },
@@ -223,6 +249,13 @@
         "valueType": "string",
         "name": "author",
         "label": "Author",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "testing",
+        "label": "Testing",
         "value": ""
       }
     ]
