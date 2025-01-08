@@ -39,8 +39,8 @@
         {
           "component": "text",
           "valueType": "string",
-          "name": "testing",
-          "label": "Testing",
+          "name": "data",
+          "label": "data-testing",
           "value": ""
         }
       ]
