@@ -37,11 +37,26 @@
           "value": ""
         },
         {
-          "component": "text",
+          "component": "select",
+          "name": "classes",
+          "value": "",
+          "label": "Background Color",
+          "description": "The marquee background color",
           "valueType": "string",
-          "name": "data",
-          "label": "data-testing",
-          "value": ""
+          "options": [
+            {
+              "name": "Red",
+              "value": "bg-red"
+            },
+            {
+              "name": "Green",
+              "value": "bg-green"
+            },
+            {
+              "name": "Blue",
+              "value": "bg-blue"
+            }
+          ]
         }
       ]
     }
