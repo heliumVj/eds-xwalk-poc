@@ -118,6 +118,27 @@
         "name": "button-align",
         "label": "Button Align",
         "value": ""
+      },
+      {
+        "component": "select",
+        "name": "classes",
+        "value": "",
+        "label": "Background Color",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Red",
+            "value": "btn-red"
+          },
+          {
+            "name": "Green",
+            "value": "btn-green"
+          },
+          {
+            "name": "Blue",
+            "value": "btn-blue"
+          }
+        ]
       }
     ]
   },
