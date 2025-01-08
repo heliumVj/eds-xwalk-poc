@@ -434,32 +434,15 @@ function decorateButtons(element) {
           a.className = 'button secondary';
           twoup.classList.add('button-container');
 
+          const parentTwo = twoup.querySelector('div.button-metadata');
+          console.log('parentTwo', parentTwo);
+          console.log('TWOUP', twoup);
           const meta = readBlockConfig(twoup);
           console.log('Block Secondary', meta);
         }
       }
     }
   });
-  const buttonMeta = element.querySelector('div.button-metadata');
-  console.log('buttonMeta', buttonMeta);
-  if (buttonMeta) {
-    const meta = readBlockConfig(buttonMeta);
-    console.log('meta', meta);
-    Object.keys(meta).forEach((key) => {
-      if (key === 'style') {
-        const styles = meta.style
-          .split(',')
-          .filter((style) => style)
-          .map((style) => toClassName(style.trim()));
-        styles.forEach((style) => element.classList.add(style));
-      } else {
-        element.dataset[toCamelCase(key)] = meta[key];
-      }
-      console.log('key', key);
-    });
-    console.log('Object', Object);
-    buttonMeta.parentNode.remove();
-  }
 }
 
 /**
