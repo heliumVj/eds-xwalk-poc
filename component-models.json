@@ -137,6 +137,7 @@
         "component": "multiselect",
         "name": "style",
         "label": "Button Align Style",
+        "raw": "Testing raw",
         "options": [
           {
             "name": "Left button",
