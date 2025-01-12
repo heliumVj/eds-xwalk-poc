@@ -36,9 +36,11 @@
       "id": "container",
       "fields": [
         {
-          "component": "multiselect",
-          "name": "style",
-          "label": "Style",
+          "component": "select",
+          "name": "classes",
+          "value": "",
+          "label": "Background Color",
+          "valueType": "string",
           "options": [
             {
               "name": "Red Container",
@@ -53,11 +55,6 @@
               "value": "green-container"
             }
           ]
-        },
-        {
-          "component": "text",
-          "name": "author",
-          "label": "Author"
         }
       ]
     },
