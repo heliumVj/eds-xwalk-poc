@@ -52,8 +52,6 @@
   },
   {
     "id": "container",
-    "components": [
-      "button"
-    ]
+    "components": null
   }
 ]
