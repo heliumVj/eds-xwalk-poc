@@ -35,19 +35,9 @@
           ]
         },
         {
-          "component": "multiselect",
+          "component": "text",
           "name": "author",
-          "label": "Author",
-          "options": [
-            {
-              "name": "Highlight",
-              "value": "highlight"
-            },
-            {
-              "name": "Main Section",
-              "value": "main-section"
-            }
-          ]
+          "label": "Author"
         }
       ]
     }
