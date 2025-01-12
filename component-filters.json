@@ -55,8 +55,7 @@
   {
     "id": "container",
     "components": [
-      "dutton",
-      "button"
+      "dutton"
     ]
   },
   {

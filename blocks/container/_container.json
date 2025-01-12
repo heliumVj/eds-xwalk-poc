@@ -32,7 +32,6 @@
     }
   ],
   "models": [
-  
     {
       "id": "dutton",
       "fields": [
@@ -50,8 +49,7 @@
     {
       "id": "container",
       "components": [
-        "dutton",
-        "button"
+        "dutton"
       ]
     }
   ]
