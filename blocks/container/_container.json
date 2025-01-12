@@ -45,11 +45,6 @@
     }
   ],
   "filters": [
-    {
-      "id": "container",
-      "components": [
-       "card"
-      ]
-    }
+
   ]
 }

@@ -49,11 +49,5 @@
       "button",
       "title"
     ]
-  },
-  {
-    "id": "container",
-    "components": [
-      "card"
-    ]
   }
 ]
