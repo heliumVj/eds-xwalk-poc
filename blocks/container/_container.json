@@ -62,9 +62,10 @@
       "id": "dutton",
       "fields": [
         {
-          "component": "text",
-          "name": "Title",
+          "component": "richtext",
+          "name": "text",
           "value": "",
+          "label": "Text",
           "valueType": "string"
         }
       ]
