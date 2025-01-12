@@ -2,14 +2,14 @@
     background-color: aquamarine;
 }
 
-.container.bg-red {
+.container.red-container {
     background-color: red;
 }
 
-.container.bg-green {
+.container.green-container {
     background-color: green;
 }
 
-.container.bg-blue {
+.container.blue-container {
     background-color: blue;
 }

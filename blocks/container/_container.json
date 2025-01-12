@@ -33,6 +33,35 @@
   ],
   "models": [
     {
+      "id": "container",
+      "fields": [
+        {
+          "component": "multiselect",
+          "name": "style",
+          "label": "Style",
+          "options": [
+            {
+              "name": "Red Container",
+              "value": "red-container"
+            },
+            {
+              "name": "Blue Container",
+              "value": "blue-container"
+            },
+            {
+              "name": "Green Container",
+              "value": "green-container"
+            }
+          ]
+        },
+        {
+          "component": "text",
+          "name": "author",
+          "label": "Author"
+        }
+      ]
+    },
+    {
       "id": "dutton",
       "fields": [
         {
