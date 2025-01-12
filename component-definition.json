@@ -158,7 +158,7 @@
           }
         },
         {
-          "title": "Container",
+          "title": "Container Div",
           "id": "container",
           "plugins": {
             "xwalk": {
