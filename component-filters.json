@@ -56,13 +56,7 @@
       "text",
       "image",
       "button",
-      "title",
-      "hero",
-      "cards",
-      "columns",
-      "fragment",
-      "quote",
-      "carousel"
+      "title"
     ]
   }
 ]
