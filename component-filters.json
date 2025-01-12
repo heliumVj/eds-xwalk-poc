@@ -53,9 +53,7 @@
   },
   {
     "id": "container",
-    "components": [
-      "dutton"
-    ]
+    "components": null
   },
   {
     "id": "quote",
