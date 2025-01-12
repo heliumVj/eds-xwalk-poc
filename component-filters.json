@@ -53,11 +53,15 @@
   {
     "id": "container",
     "components": [
-      "dutton"
+      "dutton",
+      "button"
     ]
   },
   {
     "id": "quote",
-    "components": null
+    "components": [
+      "button",
+      "text"
+    ]
   }
 ]
