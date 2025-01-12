@@ -166,6 +166,31 @@
     ]
   },
   {
+    "id": "xontainer",
+    "fields": [
+      {
+        "component": "multiselect",
+        "name": "style",
+        "label": "Style",
+        "options": [
+          {
+            "name": "Highlight",
+            "value": "highlight"
+          },
+          {
+            "name": "Main Section",
+            "value": "main-section"
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "name": "author",
+        "label": "Author"
+      }
+    ]
+  },
+  {
     "id": "card",
     "fields": [
       {
