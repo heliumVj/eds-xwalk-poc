@@ -64,10 +64,7 @@
   "filters": [
     {
       "id": "quote",
-      "components": [
-        "button",
-        "text"
-      ]
+      "components": null
     }
   ]
 }
