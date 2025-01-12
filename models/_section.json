@@ -33,6 +33,21 @@
               "value": "main-section"
             }
           ]
+        },
+        {
+          "component": "multiselect",
+          "name": "author",
+          "label": "Author",
+          "options": [
+            {
+              "name": "Highlight",
+              "value": "highlight"
+            },
+            {
+              "name": "Main Section",
+              "value": "main-section"
+            }
+          ]
         }
       ]
     }
