@@ -53,10 +53,7 @@
   {
     "id": "container",
     "components": [
-      "text",
-      "image",
-      "button",
-      "title"
+      "card"
     ]
   }
 ]
