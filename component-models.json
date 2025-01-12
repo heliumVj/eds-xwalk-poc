@@ -224,29 +224,7 @@
   },
   {
     "id": "container",
-    "fields": [
-      {
-        "component": "select",
-        "name": "classes",
-        "value": "",
-        "label": "Background Color",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Red",
-            "value": "bg-red"
-          },
-          {
-            "name": "Green",
-            "value": "bg-green"
-          },
-          {
-            "name": "Blue",
-            "value": "bg-blue"
-          }
-        ]
-      }
-    ]
+    "fields": []
   },
   {
     "id": "fragment",
