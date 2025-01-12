@@ -223,7 +223,7 @@
     ]
   },
   {
-    "id": "xontainer",
+    "id": "container",
     "fields": [
       {
         "component": "select",
@@ -245,6 +245,17 @@
             "value": "bg-blue"
           }
         ]
+      }
+    ]
+  },
+  {
+    "id": "dutton",
+    "fields": [
+      {
+        "component": "text",
+        "name": "Title",
+        "value": "",
+        "valueType": "string"
       }
     ]
   },

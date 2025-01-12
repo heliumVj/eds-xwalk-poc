@@ -2,14 +2,29 @@
   "definitions": [
     {
       "title": "Container",
-      "id": "xontainer",
+      "id": "container",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block",
             "template": {
               "name" : "Container",
-              "model": "xontainer"
+              "model": "container"
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Dutton",
+      "id": "dutton",
+      "plugins": {
+        "xwalk": {
+          "page": {
+            "resourceType": "core/franklin/components/block/v1/block/item",
+            "template": {
+              "name" : "Dutton",
+              "model": "dutton"
             }
           }
         }
@@ -18,7 +33,7 @@
   ],
   "models": [
     {
-      "id": "xontainer",
+      "id": "container",
       "fields": [
         {
           "component": "select",
@@ -42,12 +57,25 @@
           ]
         }
       ]
+    },
+    {
+      "id": "dutton",
+      "fields": [
+        {
+          "component": "text",
+          "name": "Title",
+          "value": "",
+          "valueType": "string"
+        }
+      ]
     }
   ],
   "filters": [
     {
-      "id": "xontainer",
-      "components": null
+      "id": "container",
+      "components": [
+        "dutton"
+      ]
     }
   ]
 }

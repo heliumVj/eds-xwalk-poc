@@ -51,7 +51,13 @@
     ]
   },
   {
-    "id": "xontainer",
+    "id": "container",
+    "components": [
+      "dutton"
+    ]
+  },
+  {
+    "id": "quote",
     "components": null
   }
 ]

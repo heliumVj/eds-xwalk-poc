@@ -61,5 +61,10 @@
       ]
     }
   ],
-  "filters": []
+  "filters": [
+    {
+      "id": "quote",
+      "components": null
+    }
+  ]
 }
