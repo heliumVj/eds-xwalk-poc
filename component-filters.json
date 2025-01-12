@@ -49,5 +49,20 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "container",
+    "components": [
+      "text",
+      "image",
+      "button",
+      "title",
+      "hero",
+      "cards",
+      "columns",
+      "fragment",
+      "quote",
+      "carousel"
+    ]
   }
 ]
