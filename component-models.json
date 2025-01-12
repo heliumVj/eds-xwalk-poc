@@ -223,7 +223,7 @@
     ]
   },
   {
-    "id": "container",
+    "id": "xontainer",
     "fields": [
       {
         "component": "select",
