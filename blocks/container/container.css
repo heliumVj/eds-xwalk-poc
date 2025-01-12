@@ -1,3 +1,15 @@
 .container {
-  background-color: aquamarine;
+    background-color: aquamarine;
+}
+
+.container.bg-red {
+    background-color: red;
+}
+
+.container.bg-green {
+    background-color: green;
+}
+
+.container.bg-blue {
+    background-color: blue;
 }
