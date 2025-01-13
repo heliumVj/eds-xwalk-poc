@@ -277,11 +277,25 @@
     "id": "dutton",
     "fields": [
       {
-        "component": "richtext",
-        "name": "text",
+        "component": "select",
+        "name": "classes",
         "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "label": "Background Color",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Red Container",
+            "value": "red-container"
+          },
+          {
+            "name": "Blue Container",
+            "value": "blue-container"
+          },
+          {
+            "name": "Green Container",
+            "value": "green-container"
+          }
+        ]
       }
     ]
   },

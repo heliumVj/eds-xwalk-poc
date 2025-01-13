@@ -44,12 +44,7 @@
   },
   {
     "id": "column",
-    "components": [
-      "text",
-      "image",
-      "button",
-      "title"
-    ]
+    "components": null
   },
   {
     "id": "container",
