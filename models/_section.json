@@ -99,7 +99,8 @@
         "section",
         "container",
         "xontainer",
-        "zontainer"
+        "zontainer",
+        "accordion"
       ]
     }
   ]

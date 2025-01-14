@@ -10,8 +10,8 @@
             "template": {
               "name": "Quote",
               "model": "quote",
-              "quote": "<p>Think, McFly! Think!</p>",
-              "author": "Biff Tannen"
+              "quote": "<p>Hello This is a Quote!!</p>",
+              "author": "Tirupa Khokhar"
             }
           }
         }
@@ -41,9 +41,13 @@
           "name": "classes",
           "value": "",
           "label": "Background Color",
-          "description": "The marquee background color",
+          "description": "The quote background color",
           "valueType": "string",
           "options": [
+            {
+              "name": "default",
+              "value": "bg-default"
+            },
             {
               "name": "Red",
               "value": "bg-red"
@@ -61,10 +65,5 @@
       ]
     }
   ],
-  "filters": [
-    {
-      "id": "quote",
-      "components": null
-    }
-  ]
+  "filters": []
 }

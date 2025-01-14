@@ -22,7 +22,14 @@
       "section",
       "container",
       "xontainer",
-      "zontainer"
+      "zontainer",
+      "accordion"
+    ]
+  },
+  {
+    "id": "accordion",
+    "components": [
+      "accordionitem"
     ]
   },
   {
@@ -49,10 +56,6 @@
   },
   {
     "id": "container",
-    "components": null
-  },
-  {
-    "id": "quote",
     "components": null
   },
   {
