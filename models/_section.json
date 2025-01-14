@@ -98,7 +98,8 @@
         "carousel",
         "section",
         "container",
-        "xontainer"
+        "xontainer",
+        "zontainer"
       ]
     }
   ]
