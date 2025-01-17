@@ -437,6 +437,7 @@ function decorateButtons(element) {
       }
     }
   });
+  console.log('element', element);
 }
 
 /**
