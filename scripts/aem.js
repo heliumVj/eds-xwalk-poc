@@ -457,9 +457,9 @@ function decorateButtons(element) {
           const { alignment } = jsonData;
 
           // Add extracted classes to the container
-          if (textColor) container.classList.add(`text-color-${textColor}`);
-          if (backgroundColor) container.classList.add(`background-color-${backgroundColor}`);
-          if (alignment) container.classList.add(`alignment-${alignment}`);
+          if (textColor) container.classList.add(textColor);
+          if (backgroundColor) container.classList.add(backgroundColor);
+          if (alignment) container.classList.add(alignment);
 
           console.log('Updated container:', container);
         } else {
