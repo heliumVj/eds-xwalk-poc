@@ -142,15 +142,15 @@
         "options": [
           {
             "name": "Red",
-            "value": "btn-red"
+            "value": "txt-red"
           },
           {
             "name": "Green",
-            "value": "btn-green"
+            "value": "txt-green"
           },
           {
             "name": "Blue",
-            "value": "btn-blue"
+            "value": "txt-blue"
           }
         ]
       }
