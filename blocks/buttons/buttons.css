@@ -14,15 +14,15 @@
 }
 
 .button-container.btn-red a {
-  background-color: rgb(254, 57, 57);
+  background-color: red;
 }
 
 .button-container.btn-green a {
-  background-color: rgb(29, 217, 29);
+  background-color: green;
 }
 
 .button-container.btn-blue a {
-  background-color: rgba(72, 136, 239, 0.855);
+  background-color: blue;
 }
 
 .button-container.txt-red a {
