@@ -438,7 +438,7 @@ function decorateButtons(element) {
     }
   });
 
-  // Extract `data-aue-resource` and call API
+  // Extract `data-aue-resource`, fetch JSON, and add classes
   const domain = window.location.origin; // Dynamically fetch the current domain
   const buttonContainers = element.querySelectorAll('.button-container');
   buttonContainers.forEach(async (container) => {
@@ -450,12 +450,23 @@ function decorateButtons(element) {
         const response = await fetch(apiUrl);
         if (response.ok) {
           const jsonData = await response.json();
-          console.log('API Response for:', resource, jsonData);
+
+          // Extract styles from JSON
+          const textColor = jsonData['text-color'];
+          const backgroundColor = jsonData['background-color'];
+          const { alignment } = jsonData;
+
+          // Add extracted classes to the container
+          if (textColor) container.classList.add(`text-color-${textColor}`);
+          if (backgroundColor) container.classList.add(`background-color-${backgroundColor}`);
+          if (alignment) container.classList.add(`alignment-${alignment}`);
+
+          console.log('Updated container:', container);
         } else {
-          console.error('Failed to fetch data for:', resource, response.status);
+          console.error('Failed to fetch data for:', cleanResource, response.status);
         }
       } catch (error) {
-        console.error('Error fetching data for:', resource, error);
+        console.error('Error fetching data for:', cleanResource, error);
       }
     }
   });
