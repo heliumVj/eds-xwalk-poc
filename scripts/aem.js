@@ -16,7 +16,7 @@ function sampleRUM(checkpoint, data) {
   const timeShift = () => (window.performance ? window.performance.now() : Date.now() - window.hlx.rum.firstReadTime);
   try {
     window.hlx = window.hlx || {};
-    sampleRUM.enhance = () => {};
+    sampleRUM.enhance = () => { };
     if (!window.hlx.rum) {
       const param = new URLSearchParams(window.location.search).get('rum');
       const weight = (window.SAMPLE_PAGEVIEWS_AT_RATE === 'high' && 10)
@@ -437,6 +437,28 @@ function decorateButtons(element) {
       }
     }
   });
+
+  // Extract `data-aue-resource` and call API
+  const domain = window.location.origin; // Dynamically fetch the current domain
+  const buttonContainers = element.querySelectorAll('.button-container');
+  buttonContainers.forEach(async (container) => {
+    const resource = container.getAttribute('data-aue-resource');
+    if (resource) {
+      const apiUrl = `${domain}${resource}.json`;
+      try {
+        const response = await fetch(apiUrl);
+        if (response.ok) {
+          const jsonData = await response.json();
+          console.log('API Response for:', resource, jsonData);
+        } else {
+          console.error('Failed to fetch data for:', resource, response.status);
+        }
+      } catch (error) {
+        console.error('Error fetching data for:', resource, error);
+      }
+    }
+  });
+
   console.log('element', element);
 }
 
