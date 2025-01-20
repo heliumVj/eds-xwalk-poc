@@ -1,0 +1,38 @@
+.button-container.left {
+  display: flex;
+  justify-content: left;
+}
+
+.button-container.center {
+  display: flex;
+  justify-content: center;
+}
+
+.button-container.right {
+  display: flex;
+  justify-content: right;
+}
+
+.button-container.btn-red a {
+  background-color: rgb(254, 57, 57);
+}
+
+.button-container.btn-green a {
+  background-color: rgb(29, 217, 29);
+}
+
+.button-container.btn-blue a {
+  background-color: rgba(72, 136, 239, 0.855);
+}
+
+.button-container.txt-red a {
+  color: red;
+}
+
+.button-container.txt-green a {
+  color: green;
+}
+
+.button-container.txt-blue a {
+  color: blue;
+}
