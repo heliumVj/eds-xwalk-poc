@@ -444,7 +444,8 @@ function decorateButtons(element) {
   buttonContainers.forEach(async (container) => {
     const resource = container.getAttribute('data-aue-resource');
     if (resource) {
-      const apiUrl = `${domain}${resource}.json`;
+      const cleanResource = resource.replace('urn:aemconnection:', ''); // Remove the prefix
+      const apiUrl = `${domain}${cleanResource}.json`; // Construct API URL
       try {
         const response = await fetch(apiUrl);
         if (response.ok) {
