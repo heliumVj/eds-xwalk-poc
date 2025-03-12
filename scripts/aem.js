@@ -461,17 +461,19 @@ function decorateButtons(element) {
           if (backgroundColor) container.classList.add(backgroundColor);
           if (alignment) container.classList.add(alignment);
 
-          console.log('Updated container:', container);
+          // console.log('Updated container:', container);
         } else {
-          console.error('Failed to fetch data for:', cleanResource, response.status);
+          console.log('Failed to fetch data for:', cleanResource, response.status);
         }
       } catch (error) {
-        console.error('Error fetching data for:', cleanResource, error);
+        console.log('Error fetching data for:', cleanResource, error);
       }
     }
   });
 
-  console.log('element', element);
+  (async () => {
+    await loadCSS(`${window.hlx.codeBasePath}/blocks/buttons/buttons.css`);
+  })();
 }
 
 /**
@@ -636,7 +638,7 @@ async function loadBlock(block) {
             }
           } catch (error) {
             // eslint-disable-next-line no-console
-            console.log(`failed to load module for ${blockName}`, error);
+            console.error(`failed to load module for ${blockName}`, error);
           }
           resolve();
         })();
@@ -644,7 +646,7 @@ async function loadBlock(block) {
       await Promise.all([cssLoaded, decorationComplete]);
     } catch (error) {
       // eslint-disable-next-line no-console
-      console.log(`failed to load block ${blockName}`, error);
+      console.error(`failed to load block ${blockName}`, error);
     }
     block.dataset.blockStatus = 'loaded';
   }
