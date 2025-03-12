@@ -6,4 +6,6 @@ export default function decorate(element) {
   console.log('blocks elements', element);
 }
 
-loadCSS('./buttons.css');
+const css = await loadCSS(`${window.hlx.codeBasePath}/blocks/buttons/buttons.css`);
+
+console.log(css);
