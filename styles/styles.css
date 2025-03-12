@@ -256,7 +256,7 @@ main .section.highlight {
   padding: 40px 0;
 }
 
-.button-container.left {
+/* .button-container.left {
   display: flex;
   justify-content: left;
 }
@@ -293,4 +293,4 @@ main .section.highlight {
 
 .button-container.txt-blue a {
   color: blue;
-}
+} */
