@@ -473,6 +473,7 @@ function decorateButtons(element) {
 
   (async () => {
     await loadCSS(`${window.hlx.codeBasePath}/blocks/buttons/buttons.css`);
+    console.log('LOADING CSS');
   })();
 }
 
